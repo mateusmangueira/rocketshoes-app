@@ -39,7 +39,7 @@ export const ItemCount = styled.Text`
   right: -8px;
   min-width: 18px;
   min-height: 18px;
-  background: ${colors.primary};
+  background: ${globalColors.primary};
   color: #fff;
   font-size: 12px;
   padding: 2px;
