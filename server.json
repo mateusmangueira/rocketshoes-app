@@ -28,21 +28,27 @@
   "products": [
     {
       "id": 1,
-      "title": "Tênis de Caminhada Leve e muito Confortável Confortável",
-      "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
+      "title": "Tênis Crossfit Nano 9 - Masculino",
+      "price": 599.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-nano-9-masculino/98/D19-3655-298/D19-3655-298_zoom1.jpg?ims=120x"
     },
     {
       "id": 2,
-      "title": "Tênis VR Caminhada Confortável Detalhes Couro Masculino",
+      "title": "Chuteira Campo Nike Bravata 2",
       "price": 139.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg"
+      "image": "https://static.netshoes.com.br/produtos/chuteira-campo-nike-bravata-2-fg/26/D12-2777-026/D12-2777-026_zoom1.jpg?ims=120x"
     },
     {
       "id": 3,
-      "title": "Tênis Adidas Duramo Lite 2.0",
-      "price": 219.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
+      "title": "Tênis Crossfit Nano 9 - Feminino",
+      "price": 599.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-crossfit-nano-9-reebok-feminino/27/D19-3260-827/D19-3260-827_zoom1.jpg?ims=120x"
+    },
+    {
+      "id": 4,
+      "title": "Tênis Adidas Duramo Heavy 3.0",
+      "price": 279.9,
+      "image": "https://static.netshoes.com.br/produtos/tenis-adidas-duramo-lite-2-0-masculino/28/COL-3586-128/COL-3586-128_zoom1.jpg?ims=120x"
     },
     {
       "id": 5,
@@ -55,12 +61,6 @@
       "title": "Tênis Adidas Duramo Lite 2.0",
       "price": 219.9,
       "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg"
-    },
-    {
-      "id": 4,
-      "title": "Tênis de Caminhada Leve Confortável",
-      "price": 179.9,
-      "image": "https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg"
     }
   ]
 }

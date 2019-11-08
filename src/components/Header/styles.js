@@ -4,7 +4,6 @@ import globalColors from '../../styles/globalColors';
 import logo from '../../assets/logo.png';
 
 export const Wrapper = styled.SafeAreaView`
-  flex: 0;
   background: ${globalColors.dark};
   flex-direction: row;
 `;
@@ -15,6 +14,8 @@ export const Container = styled.View`
   justify-content: space-between;
   padding: 20px;
 `;
+
+export const LogoClick = styled.TouchableOpacity``;
 
 export const Logo = styled.Image.attrs({
   source: logo,

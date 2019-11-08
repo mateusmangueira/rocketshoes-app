@@ -98,7 +98,7 @@ function Cart({
       ) : (
         <EmptyContainer>
           <Icon name="remove-shopping-cart" size={64} color="#eee" />
-          <EmptyText>Seu carrinho está vazio.</EmptyText>
+          <EmptyText>Carrinho vazio.</EmptyText>
         </EmptyContainer>
       )}
     </Container>
