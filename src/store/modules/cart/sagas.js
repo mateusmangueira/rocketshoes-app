@@ -19,7 +19,7 @@ function* addToCart({ id }) {
   const amount = currentAmount + 1;
 
   if (amount > stockAmount) {
-    Alert.alert('Produto Indisponível no estoque');
+    Alert.alert('Produto indisponível no estoque');
     return;
   }
 
@@ -37,8 +37,6 @@ function* addToCart({ id }) {
     yield put(addToCartSuccess(data));
 
     NavigationService.navigate('Cart');
-
-    // history.push('/cart');
   }
 }
 
@@ -49,7 +47,7 @@ function* updateAmount({ id, amount }) {
   const stockAmount = stock.data.amount;
 
   if (amount > stockAmount) {
-    Alert.alert('Produto Indisponível no estoque');
+    Alert.alert('Produto indisponível no estoque');
     return;
   }
 
