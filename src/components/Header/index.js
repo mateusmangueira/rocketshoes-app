@@ -6,14 +6,14 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import {
   Wrapper,
   Container,
-  LogoClick,
   Logo,
+  LogoClick,
   BasketContainer,
   ItemCount,
 } from './styles';
 
-export default function Header({ navigation }) {
-  const cartSize = useSelector(state => state.cart.lenght);
+function Header({ navigation }) {
+  const cartSize = useSelector(state => state.cart.length);
 
   return (
     <Wrapper>
@@ -29,3 +29,5 @@ export default function Header({ navigation }) {
     </Wrapper>
   );
 }
+
+export default Header;
